@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://rohitvaish.in/Teaching/2024-Fall/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><!-- Required meta tags --><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!-- Bootstrap CSS -->
+	<link href="./COL351_files/bootstrap.min.css" rel="stylesheet"><!-- Custom styles -->
+	<link href="./COL351_files/style.css" rel="stylesheet">
+	<link href="https://rohitvaish.in/images/favicon.png" rel="icon">
+	<title>COL351</title>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1202.0" data-gr-ext-installed="">
+<main role="main"><!-- Main jumbotron for a primary marketing message or call to action -->
+<section class="jumbotron text-center">
+<div class="container">
+<h4 class="jumbotron-heading">COL351, Fall Semester 2024</h4>
+
+<h1 class="jumbotron-heading">Analysis and Design of Algorithms</h1>
+<!-- <p class="lead text-muted"><i>Making friends with algorithms.</i></p> -->
+
+<p class="lead text-muted"><b>Instructor:</b> <a href="https://rohitvaish.in/">Rohit Vaish</a> (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'rvaish'
+        , p4 = 'iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:rvaish@iitd.ac.in">rvaish@iitd.ac.in</a>)</p>
+
+<p>Teaching Assistants:
+<br>
+
+
+Lakshay Saggi (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'csz228231'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:csz228231@cse.iitd.ac.in">csz228231@cse.iitd.ac.in</a>),<br>
+
+Pratikkumar Sureshkumar Bulani (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'csz248008'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:csz248008@cse.iitd.ac.in">csz248008@cse.iitd.ac.in</a>),<br>
+
+Gaurav Rajput (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'csy247558'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:csy247558@cse.iitd.ac.in">csy247558@cse.iitd.ac.in</a>),<br>
+
+Adithya R Narayan (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'mcs242445'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:mcs242445@cse.iitd.ac.in">mcs242445@cse.iitd.ac.in</a>),<br>
+
+Shivansh Garg (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'mcs242450'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:mcs242450@cse.iitd.ac.in">mcs242450@cse.iitd.ac.in</a>),<br>
+
+Vaibhav Katendra (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'mcs242459'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:mcs242459@cse.iitd.ac.in">mcs242459@cse.iitd.ac.in</a>),<br>
+
+Ramanuj Goel (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'cs5200437'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:cs5200437@cse.iitd.ac.in">cs5200437@cse.iitd.ac.in</a>),<br>
+
+Geetansh Juneja (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'cs5200649'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:cs5200649@cse.iitd.ac.in">cs5200649@cse.iitd.ac.in</a>),<br>
+
+Samyak Jain (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'cs5200667'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:cs5200667@cse.iitd.ac.in">cs5200667@cse.iitd.ac.in</a>)
+
+
+
+</p>
+</div>
+</section>
+
+<div class="album py-3 bg-light">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<h4 class="maintopic"><br>
+Course Information</h4>
+<b>What this course is about</b>
+
+<p align="justify">This course will provide an introduction to the fascinating field of <i>algorithms</i>. Participants will learn various techniques for designing algorithms and formally reasoning about their correctness and resource requirements.<br>
+
+</p>
+<b>Who is this course aimed at</b>
+
+<p align="justify">The course is designed for third-year undergraduate students. This offering of COL351 is for CS students; non-CS students should sign up for the Spring semester offering.</p>
+
+
+<b>Prerequisites</b>
+
+<p align="justify">This is a theoretical course that will require familiarity with Data Structures (COL106) and Discrete Mathematical Structures (COL202).</p>
+
+<b>References</b>
+
+<ul>
+	<li> [DPV] Sanjoy Dasgupta, Christos Papadimitriou, and Umesh Vazirani. <i>Algorithms</i>. First Edition.
+	<!-- <li> [E] Jeff Erickson. <i>Algorithms</i>. First Edition. [<a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf" target="_blank">pdf</a>] -->
+	</li><li> [KT] Jon Kleinberg and Éva Tardos. <i>Algorithm Design</i>. First Edition
+	</li><li> [R] Tim Roughgarden. <i>Algorithms Illuminated, Parts 1-4</i>. [<a href="https://www.algorithmsilluminated.org/" target="_blank">Website</a>]
+	</li><li> <a href="https://timroughgarden.org/w16/w16.html" target="_blank">A Second Course in Algorithms</a> at Stanford
+</li></ul>
+
+
+<b>Other resources</b>
+
+<ul>
+	<li> Dance your way to sorting with <a href="https://www.youtube.com/@AlgoRythmics" target="_blank">AlgoRhythmics</a>
+	</li><li> Visualizing algorithms with <a href="https://visualgo.net/en" target="_blank">VisuAlgo</a>
+	</li><li> Nice <a href="https://www.youtube.com/@compscilessons" target="_blank">explanations</a> of CS Theory concepts
+</li></ul>
+
+
+</div>
+
+<div class="col-sm">
+<h4 class="maintopic"><br>
+Admin</h4>
+<b>Lecture and tutorial timings</b>
+
+<p align="justify">Lectures: TWF 10-11 AM. Venue: LH 121.</p>
+<p align="justify">Tutorials: M/T/Th/F 1-2 PM. Venue: LH 408. (<a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Tutorial-Groups.pdf" target="_blank">Tutorial Groups</a>).</p>
+Sign up on the Microsoft Teams channel of the course for announcements.<p></p>
+
+<b>Evaluation policy</b><br>
+
+<p align="justify">
+Tutorial quizzes: 24% (best eight x 3%)<br>
+In-class quizzes: 36% (best three x 12%)<br>
+Minor: 20%<br>
+Major: 20%<br>
+</p>
+
+<ul>
+<li>For missed minor and/or major exams due to a medical reason, a single exam will be held after the regular major exam (date will be announced later), for which the syllabus will be the entire course. The weightage of this make-up exam will be 20%.<br><br>Only those who obtain prior approval from the instructor (before the date of the missed regular minor and/or regular major exam) and have at least 75% attendance will qualify for this exam. In particular, if you miss both the regular minor and the regular major exam, there will still be only one make-up exam (worth 20%).<br><br></li>
+<li>For students with an E grade, a remajor exam will be held at the start of the next semester. Again, at least 75% attendance will be required.<br><br></li>
+<li>Audit policy: No audits allowed.</li>
+</ul>
+
+
+<!--
+<b>How to register</b>
+
+<p align="justify">Send an email to Rohit with information about your prior coursework and relevant research experience.</p>
+--></div>
+</div>
+</div>
+</div>
+
+<div class="album py-3 bg-light">
+<div class="container">
+
+
+
+		
+
+
+		<table class="table">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col" style="text-align: left;">Date and Lecture</th>
+			<th scope="col">Topic</th>
+			<th scope="col">Tutorials</th>
+		</tr>
+	</thead>
+	<tbody>
+	
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 1</td>
+		</tr>
+
+		<tr class="evenrow"><!-- <th scope="row">Lec 1: Date</th> -->
+			<td>July 22 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>July 23 (Tue)<br>Lecture 1</td>
+			<td><strong>Introduction to Algorithms</strong><br><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-1.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: <!--[DPV] Chapter 1, [KT] Chapter 2, -->[R] Part 1 Chapter 1</li>
+			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>July 24 (Wed)<br>Lecture 2</td>
+			<td><strong>Divide and Conquer I: Integer Multiplication and Merge Sort</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-2.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: <!--[DPV] Chapter 2, [KT] Chapter 5, -->[R] Part 1, Chapter 1</li>
+				<li><a href="https://www.cs.dartmouth.edu/~deepc/LecNotes/cs31/writing.pdf" target="_blank">Communicating algorithms</a></li>
+			</td>
+			<td>
+			<ul>
+				
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>July 25 (Thurs)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>July 26 (Fri)<br>Lecture 3</td>
+			<td><strong>Divide and Conquer II: Merge Sort (Contd.) and Asymptotic Analysis</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-3.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 1, Chapters 1 and 2</li>
+				<li>Understanding (log) scale: <a href="https://www.youtube.com/watch?v=0fKBhvDjuy0" target="_blank">Powers of Ten</a></li>
+
+
+
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 2</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>July 29 (Mon)</td>			
+			<td><strong></strong><br>
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-1.pdf" target="_blank">Tutorial Sheet 1</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>July 30 (Tue)<br>Lecture 4</td>
+			<td><strong>Divide and Conquer III: Asymptotic Analysis (Contd.) and Counting Inversions</strong><br><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-4.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 1, Chapters 2 and 3</li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-1.pdf" target="_blank">Tutorial Sheet 1</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>July 31 (Wed)<br>Lecture 5</td>
+			<td><strong>Divide and Conquer IV: Counting Inversions (Contd.), Matrix Multiplication and Master Theorem</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-5.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 1, Chapters 3 and 4</li>
+				<li><a href="https://en.wikipedia.org/wiki/Computational_complexity_of_matrix_multiplication" target="_blank">Timeline</a> of matrix multiplication exponent</li>
+				<li>Quanta <a href="https://www.quantamagazine.org/new-breakthrough-brings-matrix-multiplication-closer-to-ideal-20240307" target="_blank">article</a> on matrix multiplication</li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Aug 01 (Thurs)</td>
+			<td><strong></strong><br>		
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-1.pdf" target="_blank">Tutorial Sheet 1</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Aug 02 (Fri)<br>Lecture 6</td>
+			<td><strong>Divide and Conquer V: Proof and Applications of Master Theorem</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-6.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 2, Chapters 4</li>
+				<li>The <a href="https://www.cs.dartmouth.edu/~deepc/LecNotes/cs31/lec4-supp.pdf" target="_blank">"grandmaster" theorem</a></li>
+				<li><a href="https://www.cse.iitb.ac.in/~rgurjar/CS218-2024/slides/basics.pdf" target="_blank">Slides</a> by Rohit Gurjar</li>
+				<li>Quanta <a href="https://www.quantamagazine.org/mathematicians-discover-the-perfect-way-to-multiply-20190411/" target="_blank">article</a> on integer multiplication</li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-1.pdf" target="_blank">Tutorial Sheet 1</a>
+			</ul>
+			</td>
+		</tr>
+		
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 3</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Aug 05 (Mon)</td>
+			<td><strong style="color:blue;">Last date for course drop</strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-2.pdf" target="_blank">Tutorial Sheet 2</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Aug 06 (Tue)<br>Lecture 7</td>
+			<td><strong><font color="red">Quiz 1</font></strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-7.pdf" target="_blank">Solutions</a></li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-2.pdf" target="_blank">Tutorial Sheet 2</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Aug 07 (Wed)<br>Lecture 8</td>
+			<td><strong>Graph Algorithms I: Basic Definitions</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-8.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 2, Chapter 7</li><br>
+				<strong style="color:blue;">Last date for adding courses in lieu of dropped courses</strong><br>
+				<strong style="color:blue;">Finalization of roll lists</strong>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Aug 08 (Thurs)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-2.pdf" target="_blank">Tutorial Sheet 2</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Aug 09 (Fri)<br>Lecture 9</td>
+			<td><strong>Graph Algorithms II: Representation and Search</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-9.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 2, Chapter 8</li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-2.pdf" target="_blank">Tutorial Sheet 2</a>
+			</ul>
+			</td>
+		</tr>
+				
+		
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 4</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Aug 12 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-3.pdf" target="_blank">Tutorial Sheet 3</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Aug 13 (Tue)<br>
+			<strong style="color:blue;">Thursday timetable</strong></td>
+			<td><strong>No lecture</strong><br>	
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-3.pdf" target="_blank">Tutorial Sheet 3</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Aug 14 (Wed)<br>Lecture 10</td>
+			<td><strong>Graph Algorithms III: BFS, DFS, and Applications</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-10.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 2, Chapter 8</li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Aug 15 (Thurs)<br>
+			<strong style="color:blue;">Independence Day</strong></td>
+			<td><strong></strong><br>
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Aug 16 (Fri)<br>
+			<strong style="color:blue;">No Class Day</strong></td>
+			<td><strong>No lecture</strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+
+		
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 5</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Aug 19 (Mon)<br>
+			<strong style="color:blue;">Rakshabandhan</strong></td>
+			<td><strong></strong><br>
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Aug 20 (Tue)<br>Lecture 11</td>
+			<td><strong>Graph Algorithms IV: Topological Ordering and Strongly Connected Components</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-11.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 2, Chapter 8</li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-3.pdf" target="_blank">Tutorial Sheet 3</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Aug 21 (Wed)<br>Lecture 12</td>
+			<td><strong>Graph Algorithms V: Kosaraju's Algorithm</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-12.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 2, Chapter 8</li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Aug 22 (Thurs)<br></td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-4.pdf" target="_blank">Tutorial Sheet 4</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Aug 23 (Fri)<br>Lecture 13</td>
+			<td><strong>Graph Algorithms VI: Dijkstra's Algorithm</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-13.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 2, Chapters 9 and 10 (for Heaps)</li>
+				<li><a href="https://www.sciencedirect.com/science/article/pii/S1389128600000839" target="_blank">Paper</a> on bow tie structure of the web</li>
+				<li><a href="https://en.wikipedia.org/wiki/Small-world_experiment" target="_blank">Small-world experiment</a> and <a href="https://www.youtube.com/watch?v=TcxZSmzPw8k" target="_blank">Six degrees of separation</a></li>
+				<li>Dijkstra's Turing Award <a href="https://www.youtube.com/watch?v=9hWv2ECXHng" target="_blank">Lecture</a></li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-3.pdf" target="_blank">Tutorial Sheet 3</a>
+			</ul>
+			</td>
+		</tr>
+
+
+
+		
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 6</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Aug 26 (Mon)<br>
+			<strong style="color:blue;">Janmashtami</strong></td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Aug 27 (Tue)<br>Lecture 14</td>
+			<td><strong>Greedy Algorithms I: Job Scheduling</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-14.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 3, Chapter 13</li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-4.pdf" target="_blank">Tutorial Sheet 4</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Aug 28 (Wed)<br>Lecture 15</td>
+			<td><strong>Greedy Algorithms II: Job Scheduling (Contd.) and Huffman Coding</strong><br><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-15.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 3, Chapter 14, [KT] Chapter 4.8</li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Aug 29 (Thurs)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-5.pdf" target="_blank">Tutorial Sheet 5</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Aug 30 (Fri)<br>Lecture 16</td>
+			<td><strong><font color="red">Quiz 2</font></strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-16.pdf" target="_blank">Solutions</a></li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-4.pdf" target="_blank">Tutorial Sheet 4</a>
+			</ul>
+			</td>
+		</tr>
+
+		<tr class="evenrow">
+			<td>Aug 31 (Sat)<br>
+			<strong style="color:blue;">Monday timetable</strong></td>
+			<td><strong></strong><br>
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-4.pdf" target="_blank">Tutorial Sheet 4</a>
+			</ul>
+			</td>
+		</tr>
+		
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 7</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Sep 02 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-5.pdf" target="_blank">Tutorial Sheet 5</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Sep 03 (Tue)<br>Lecture 17</td>
+			<td><strong>Greedy Algorithms III: Huffman Coding (Contd.)</strong><br><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-17.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 3, Chapter 14, [KT] Chapter 4.8</li>
+			</td>
+
+			
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-5.pdf" target="_blank">Tutorial Sheet 5</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Sep 04 (Wed)<br>Lecture 18</td>
+			<td><strong>Greedy Algorithms IV: Huffman's Algorithm</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-18.pdf" target="_blank">Slides</a></li>
+				<li><a href="https://www.youtube.com/watch?v=JsTptu56GM8" target="_blank">How Computers Compress Text</a></li>
+				<li>Additional reading: [R] Part 3, Chapter 14, [KT] Chapter 4.8</li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Sep 05 (Thurs)<br>
+			</td><td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-6.pdf" target="_blank">Tutorial Sheet 6</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Sep 06 (Fri)<br>Lecture 19</td>
+			<td><strong>Greedy Algorithms V: Minimum Spanning Trees</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-19.pdf" target="_blank">Slides</a></li>
+				<li><a href="https://ieeexplore.ieee.org/document/4392963" target="_blank">On the History of MST Problem</a></li>
+				<li>Additional reading: [R] Part 3, Chapter 15</li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-5.pdf" target="_blank">Tutorial Sheet 5</a>
+			</ul>
+			</td>
+		</tr>
+		
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 8</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Sep 09 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-6.pdf" target="_blank">Tutorial Sheet 6</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Sep 10 (Tue)<br>Lecture 20</td>
+			<td><strong>Greedy Algorithms VI: Minimum Spanning Trees (Contd.)</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-20.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 3, Chapter 15</li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-6.pdf" target="_blank">Tutorial Sheet 6</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Sep 11 (Wed)<br>Lecture 21<br>
+			<strong style="color:blue;">Friday timetable</strong></td>
+			<td><strong>Mid-Term Review and Introduction to Dynamic Programming</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-21.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 3, Chapter 16</li><br>
+				<!--<strong style="color:blue;">Last date for filling of mid-term course evaluation online</strong><br>-->
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-6.pdf" target="_blank">Tutorial Sheet 6</a>
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Weeks 8 and 9 (Sept 12-18)</td>
+		</tr>
+
+		<tr class="oddrow">
+			<td>Sep 17 (Tue)</td>
+			<td><strong><font color="red">Mid-Semester Examination (8 AM-10 AM) at LH 121 and LH 325</font></strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Minor.pdf" target="_blank">Solutions</a></li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Minor.pdf" target="_blank">
+			</a></td>
+			<td>
+			<ul></ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 9</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Sept 19 (Thurs)</td>
+			<td><strong></strong><br>
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-7.pdf" target="_blank">Tutorial Sheet 7</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Sept 20 (Fri)<br>Lecture 22</td>
+			<td><strong>Dynamic Programming I: Weighted Independent Set</strong><br><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-22.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 3, Chapter 16</li>			
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-7.pdf" target="_blank">Tutorial Sheet 7</a>
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 10</td>
+		</tr>
+
+		<tr class="evenrow">
+			<td>Sep 23 (Mon)<br></td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-7.pdf" target="_blank">Tutorial Sheet 7</a>
+			</ul>
+			</td>
+		</tr>	
+		
+		<tr class="oddrow">
+			<td>Sep 24 (Tue)<br>Lecture 23</td>
+			<td><strong>Dynamic Programming II: Weighted Independent Set (Contd.) and Knapsack</strong><br><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-23.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 3, Chapter 16</li>			
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-7.pdf" target="_blank">Tutorial Sheet 7</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Sep 25 (Wed)<br>Lecture 24</td>
+			<td><strong>Dynamic Programming III: Knapsack (Contd.) and Sequence Alignment</strong><br><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-24.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 3, Chapters 16 and 17</li>			
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>		
+		
+		<tr class="oddrow">
+			<td>Sep 26 (Thurs)<br>
+			</td><td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-8.pdf" target="_blank">Tutorial Sheet 8</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Sep 27 (Fri)</td>
+			<td><strong>No lecture</strong><br>
+				<strong style="color:blue;">Mid-term evaluation of projects</strong><br>
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>	
+
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 11</td>
+		</tr>
+						
+		<tr class="oddrow">
+			<td>Sep 30 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-8.pdf" target="_blank">Tutorial Sheet 8</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Oct 01 (Tue)<br>Lecture 25</td>
+			<td><strong>No lecture</strong><br><br>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-8.pdf" target="_blank">Tutorial Sheet 8</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Oct 02 (Wed)<br>
+			<strong style="color:blue;">Gandhi Jayanti</strong></td>
+			<td><strong>No lecture</strong><br>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Oct 03 (Thurs)<br>
+			</td><td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-9.pdf" target="_blank">Tutorial Sheet 9</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Oct 04 (Fri)<br>Lecture 26</td>
+			<td><strong>Dynamic Programming IV: Sequence Alignment (Contd.) and Bellman-Ford Algorithm</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-26.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 3, Chapters 17 and 18</li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-8.pdf" target="_blank">Tutorial Sheet 8</a>
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 12 (Mid-Semester Break)</td>
+		</tr>
+		
+
+		<tr class="evenrow">
+			<td>Oct 07-11</td>
+			<td><strong>No Lectures</strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorials
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 13</td>
+		</tr>
+						
+		<tr class="oddrow">
+			<td>Oct 14 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-9.pdf" target="_blank">Tutorial Sheet 9</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Oct 15 (Tue)<br>Lecture 27</td>
+			<td><strong>Dynamic Programming V: Bellman-Ford Algorithm (Contd.)</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-27.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 3, Chapter 18</li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-9.pdf" target="_blank">Tutorial Sheet 9</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Oct 16 (Wed)<br>Lecture 28</td>
+			<td><strong><font color="red">Quiz 3</font></strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-28.pdf" target="_blank">Solutions</a></li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Oct 17 (Thurs)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-10.pdf" target="_blank">Tutorial Sheet 10</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Oct 18 (Fri)<br>Lecture 29</td>
+			<td><strong>Dynamic Programming VI: All Pairs Shortest Paths Problem</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-29.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [R] Part 3, Chapter 18</li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-9.pdf" target="_blank">Tutorial Sheet 9</a>
+			</ul>
+			</td>
+		</tr><tr class="evenrow">
+			<td>Oct 19 (Sat)<br>Lecture 30<br>
+			<strong style="color:blue;">Wednesday timetable</strong></td>
+			<td><strong>All Pairs Shortest Paths Problem (Contd.) and Introduction to Network Flows</strong><br><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Fall/Slides/Lecture-30.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: <a href="https://timroughgarden.org/w16/l/l1.pdf" target="_blank">Notes</a> by Roughgarden</li>
+				<li>Lectures [<a href="https://www.youtube.com/watch?v=i0q-Irlf4y4" target="_blank">1</a>, <a href="https://www.youtube.com/watch?v=7QPI3kBIKv4" target="_blank">2</a>, <a href="https://www.youtube.com/watch?v=5PR0ExrHO-Q" target="_blank">3</a>, <a href="https://www.youtube.com/watch?v=UdtwpgjfR3g" target="_blank">4</a>, <a href="https://www.youtube.com/watch?v=7qJV683OsBQ" target="_blank">5</a>] by David Karger</li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 14</td>
+		</tr>
+						
+		<tr class="oddrow">
+			<td>Oct 21 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-10.pdf" target="_blank">Tutorial Sheet 10</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Oct 22 (Tue)<br>Lecture 31</td>
+			<td><strong>Network Flow II: Maximum Flow and Minimum Cut</strong><br><br>
+				<!--<li><a href="Slides/Lecture-31.pdf" target="_blank">Slides</a></li>-->
+				<li>Additional reading: <a href="https://timroughgarden.org/w16/l/l2.pdf" target="_blank">Notes</a> by Roughgarden</li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-10.pdf" target="_blank">Tutorial Sheet 10</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Oct 23 (Wed)<br>Lecture 32</td>
+			<td><strong>Network Flow III: Edmonds-Karp Algorithm</strong><br><br>
+				<!--<li><a href="Slides/Lecture-32.pdf" target="_blank">Slides</a></li>-->
+				<li>Additional reading: <a href="https://timroughgarden.org/w16/l/l2.pdf" target="_blank">Notes</a> by Roughgarden</li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Oct 24 (Thurs)<br>
+			</td><td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-11.pdf" target="_blank">Tutorial Sheet 11</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Oct 25 (Fri)<br>Lecture 33</td>
+			<td><strong>Network Flow IV: Applications of Flows and Cuts</strong><br><br>
+				<!--<li><a href="Slides/Lecture-33.pdf" target="_blank">Slides</a></li>-->
+				<li>Additional reading: <a href="https://timroughgarden.org/w16/l/l4.pdf" target="_blank">Notes</a> by Roughgarden</li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-10.pdf" target="_blank">Tutorial Sheet 10</a>
+			</ul>
+			</td>
+		</tr><tr class="evenrow">
+			<td>Oct 26 (Sat)<br>Lecture 34<br>
+			<strong style="color:blue;">Friday timetable</strong></td>
+			<td><strong>Linear Programming I: Introduction and Applications</strong><br><br>
+				<!--<li><a href="Slides/Lecture-34.pdf" target="_blank">Slides</a></li>-->
+				<li>Additional reading: <a href="https://timroughgarden.org/w16/l/l7.pdf" target="_blank">Notes</a> by Roughgarden</li>
+				<li> Dantzig's <a href="https://courses.cs.duke.edu/spring07/cps296.2/papers/LinearProgramming_article.pdf" target="_blank">article</a></li>
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 15</td>
+		</tr>
+						
+		<tr class="oddrow">
+			<td>Oct 28 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-11.pdf" target="_blank">Tutorial Sheet 11</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Oct 29 (Tue)<br>Lecture 35</td>
+			<td><strong><font color="red">Quiz 4</font></strong><br><br>
+				<!--<li><a href="Slides/Lecture-35.pdf" target="_blank">Solutions</a></li>-->
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-11.pdf" target="_blank">Tutorial Sheet 11</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Oct 30 (Wed)<br>Lecture 36</td>
+			<td><strong>Linear Programming II: Duality (Part 1)</strong><br><br>
+				<!--<li><a href="Slides/Lecture-36.pdf" target="_blank">Slides</a></li>-->
+				<li>Additional reading: <a href="https://timroughgarden.org/w16/l/l8.pdf" target="_blank">Notes</a> by Roughgarden</li>
+				<li>The <a href="https://rohitvaish.in/data/Papers/[Benjamin]%20Sensible%20Rules%20for%20Remembering%20Duals%20-%20The%20S-O-B%20Method.pdf" target="_blank">S-O-B method</a> for remembering duals</li>
+				<li>A <a href="https://www.youtube.com/watch?v=Ijc9-aaBEXU&amp;list=PLdUzuimxVcC0QCFYP0Af3TNldswjL8_ep&amp;index=14" target="_blank">refresher</a> on linear programming</li>
+				<li>Interactive <a href="https://lpdual.com/" target="_blank">website</a> for writing dual LPs</li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Oct 31 (Thurs)<br>
+			<strong style="color:blue;">Diwali</strong></td>
+			<td></td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Nov 01 (Fri)<br>Lecture 37</td>
+			<td><strong>Linear Programming III: Duality (Part 2)</strong><br><br>
+				<!--<li><a href="Slides/Lecture-37.pdf" target="_blank">Slides</a></li>-->
+				<li>Additional reading: <a href="https://timroughgarden.org/w16/l/l9.pdf" target="_blank">Notes</a> by Roughgarden</li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-11.pdf" target="_blank">Tutorial Sheet 11</a>
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 16</td>
+		</tr>
+						
+		<tr class="evenrow">
+			<td>Nov 04 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-12.pdf" target="_blank">Tutorial Sheet 12</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Nov 05 (Tue)<br>Lecture 38</td>
+			<td><strong>Linear Programming IV: Survey of LP Algorithms</strong><br><br>
+				<!--<li><a href="Slides/Lecture-38.pdf" target="_blank">Slides</a></li>-->
+				<li>Additional reading: <a href="https://timroughgarden.org/w16/l/l10.pdf" target="_blank">Notes</a> by Roughgarden</li>
+			</td>
+			<!--<td><strong>Approximation Algorithms I: Greedy and Dynamic Programming</strong><br><br />
+				<li><a href="Slides/Lecture-38.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [KT] Chapter 11</li>
+			</td>-->
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-12.pdf" target="_blank">Tutorial Sheet 12</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Nov 06 (Wed)<br>Lecture 39</td>
+			<td><strong>NP-completeness I: Introduction</strong><br><br>
+				<!--<li><a href="Slides/Lecture-39.pdf" target="_blank">Slides</a></li>-->
+				<li>Additional reading: [R] Part 4, Chapter 19</li>
+			</td>
+			<!--<td><strong>Approximation Algorithms II: Linear Programming</strong><br><br />
+				<li><a href="Slides/Lecture-39.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [KT] Chapter 11</li>
+			</td>-->
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Nov 07 (Thurs)<br>
+			</td><td></td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-12.pdf" target="_blank">Tutorial Sheet 12</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Nov 08 (Fri)<br>Lecture 40</td>
+			<td><strong>NP-completeness II: Reductions</strong><br><br>
+				<!--<li><a href="Slides/Lecture-40.pdf" target="_blank">Slides</a></li>-->
+				<li>Additional reading: [R] Part 4, Chapter 22</li>
+			</td>
+			<!--<td><strong>Randomized Algorithms I: MAX-3SAT and Randomized QuickSort</strong><br><br />
+				<li><a href="Slides/Lecture-40.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [KT] Chapter 13</li>
+			</td>-->
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Fall/Tutorials/Sheet-12.pdf" target="_blank">Tutorial Sheet 12</a>
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 17</td>
+		</tr>
+						
+		<tr class="oddrow">
+			<td>Nov 11 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Nov 12 (Tue)<br>Lecture 41</td>
+			<td><strong>NP-completeness III: More Reductions</strong><br><br>
+				<!--<li><a href="Slides/Lecture-41.pdf" target="_blank">Slides</a></li>-->
+				<li>Additional reading: [R] Part 4, Chapter 22</li>
+				<li><a href="https://ocw.mit.edu/courses/6-890-algorithmic-lower-bounds-fun-with-hardness-proofs-fall-2014/" target="_blank">Fun with Hardness Proofs</a></li>
+			</td>
+			<!--<td><strong>Randomized Algorithms II: Median Finding</strong><br><br />
+				<li><a href="Slides/Lecture-41.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [KT] Chapter 13</li>
+			</td>-->
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Nov 13 (Wed)<br>Lecture 42</td>
+			<td><strong>NP-completeness IV:  P vs NP, ETH, and SETH and Wrap-Up</strong><br><br>
+				<!--<li><a href="Slides/Lecture-42.pdf" target="_blank">Slides</a></li>-->
+				<li>Additional reading: [R] Part 4, Chapter 23</li>
+			</td>
+			<!--<td><strong>Parameterized Algorithms and Wrap-Up</strong><br><br />
+				<li><a href="Slides/Lecture-42.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: [KT] Chapter 10</li>
+			</td>-->
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 18</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>TBA</td>
+			<td><strong><font color="red">End-Semester Examination</font> </strong><br>
+				<!-- <li><a href="Slides/Major-Solutions.pdf" target="_blank">Solutions</li> -->
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+
+		<tr class="oddrow">
+			<td>TBA</td>
+			<td><strong><font color="red">Make-Up Exam</font></strong><br>
+				<!-- <li><a href="Slides/Major-Solutions.pdf" target="_blank">Solutions</li> -->
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+
+
+
+		
+	</tbody>
+</table>
+</div>
+</div>
+
+</main>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

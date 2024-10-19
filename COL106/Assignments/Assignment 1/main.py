@@ -1,6 +1,5 @@
 from maze import *
 from navigator import *
-
 def is_valid(x : int, y : int, rows : int, cols : int) -> bool:
     if(x < 0 or x >= rows):
         print("The row of cell", (x, y), "is out of bounds, hence this path is invalid.")
@@ -11,15 +10,14 @@ def is_valid(x : int, y : int, rows : int, cols : int) -> bool:
     return True
 def is_neighbour(x1 : int, y1 : int, x2 : int, y2 : int) -> bool:
     return abs(x2-x1) + abs(y2-y1) == 1
+
 if __name__ == "__main__":
-    
     ## YOU CAN TWEAK THESE PARAMETERS IN ORDER TO GENERATE MORE TESTCASES
     grid_rows = 4
     grid_cols = 4
     ghosts = [(0, 1), (2, 2), (3, 1)]
     start_point = (2, 0)
     end_point = (2, 3)
-
     ## This is where the checker logic starts
     sample_grid = Maze(grid_rows, grid_cols)
     for ghost in ghosts:
@@ -39,12 +37,16 @@ if __name__ == "__main__":
     try:
         path = PacManInstance.find_path(start_point, end_point) 
         isPathValid = True
+
+
         if(path[0] != start_point):
             print("The path is supposed to begin with the tuple", start_point, ", hence this path is invalid.")
             isPathValid = False
         if(path[-1] != end_point):
             print("The path is supposed to end with the tuple", end_point, ", hence this path is invalid.")
             isPathValid = False
+
+            
         allCells = set()
         for cell in path:
             if(is_valid(cell[0], cell[1], grid_rows, grid_cols) and sample_grid.grid_representation[cell[0]][cell[1]] == 1):

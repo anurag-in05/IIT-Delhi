@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://rohitvaish.in/Teaching/2024-Spring/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><!-- Required meta tags --><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!-- Bootstrap CSS -->
+	<link href="./COL202_files/bootstrap.min.css" rel="stylesheet"><!-- Custom styles -->
+	<link href="./COL202_files/style.css" rel="stylesheet">
+	<link href="https://rohitvaish.in/images/favicon.png" rel="icon">
+	<title>COL202</title>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1202.0" data-gr-ext-installed="">
+<main role="main"><!-- Main jumbotron for a primary marketing message or call to action -->
+<section class="jumbotron text-center">
+<div class="container">
+<h4 class="jumbotron-heading">COL202, Spring Semester 2024</h4>
+
+<h1 class="jumbotron-heading">Discrete Mathematical Structures</h1>
+<!-- <p class="lead text-muted"><i>Making friends with proof.</i></p> -->
+
+<p class="lead text-muted"><b>Instructor:</b> <a href="https://rohitvaish.in/">Rohit Vaish</a> (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'rvaish'
+        , p4 = 'iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:rvaish@iitd.ac.in">rvaish@iitd.ac.in</a>)</p>
+
+<p>Teaching Assistants:
+<br>
+Jatin Yadav (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'csy237549'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:csy237549@cse.iitd.ac.in">csy237549@cse.iitd.ac.in</a>),<br>
+Surbhi Rajput (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'csy227519'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:csy227519@cse.iitd.ac.in">csy227519@cse.iitd.ac.in</a>),<br>
+Akshay Pratap Singh (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'mcs222058'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:mcs222058@cse.iitd.ac.in">mcs222058@cse.iitd.ac.in</a>),<br>
+Soumil Aggarwal (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'cs1200392'
+        , p4 = 'cse.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:cs1200392@cse.iitd.ac.in">cs1200392@cse.iitd.ac.in</a>),<br>
+Adit Malhotra (<script>
+    (function whatever() {
+		var p0 = '.'
+        , p1 = '@'
+        , p2 = 'in'
+        , p3 = 'ee1200458'
+        , p4 = 'ee.iitd'
+        , p5 = 'ac'
+        , e = p3 + p1 + p4 + p0 + p5 + p0 + p2
+        , l = '<a href=mailto:{{hello@noone.com}}>{{hello@noone.com}}</a>'.replace(/{{.+?(}})/g, e);
+		document.write(l);
+		})();
+</script><a href="mailto:ee1200458@ee.iitd.ac.in">ee1200458@ee.iitd.ac.in</a>)
+
+
+
+</p>
+</div>
+</section>
+
+<div class="album py-3 bg-light">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<h4 class="maintopic"><br>
+Course Information</h4>
+<b>What this course is about</b>
+
+<p align="justify">This course will introduce its participants to fundamentals of discrete mathematics that they can apply to future courses in computer science and related areas.<br><br>
+
+An important goal of the course will be to develop familiarity with and an appreciation of rigorous mathematical reasoning (or <italic>proofs</italic>).<br>
+
+</p>
+<b>Who is this course aimed at</b>
+
+<p align="justify">The course is designed for second and third year undergraduate students who want to do advanced courses in computer science in the future.<br><br>
+
+This offering of COL202 is for non-CS students; CS students should sign up for the Fall semester offering.</p>
+
+
+<b>Prerequisites</b>
+
+<p align="justify">This is a theoretical course that will require familiarity with high school (Standards 11 and 12) mathematics.</p>
+
+<b>Reference texts</b>
+
+<ul>
+	<li> [LLM-Book] E. Lehman, F. T. Leighton, and A. R. Meyer. Mathematics for Computer Science, June 2018 [<a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf" target="_blank">pdf</a>]
+	</li><li> [LLM-Notes] E. Lehman, F. T. Leighton, and A. R. Meyer. Mathematics for Computer Science, Course notes from Fall 2010, MIT OpenCourseWare [<a href="https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/" target="_blank">pdf</a>]
+</li></ul>
+
+</div>
+
+<div class="col-sm">
+<h4 class="maintopic"><br>
+Admin</h4>
+<b>Lecture and tutorial timings</b>
+
+<p align="justify">Lectures: TWF 10-11AM. Venue: LH316.</p>
+<p align="justify">Tutorials: M/T/Th/F 1-2PM. Venue: LH615. (<a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Tutorial-Groups.pdf" target="_blank">Tutorial Groups</a>).</p>
+Sign up on the Microsoft Teams channel of the course for announcements.<p></p>
+
+<b>Evaluation policy</b><br>
+
+<p align="justify">Tutorials: 24% (best eight x 3%)<br>
+Quizzes: 36% (best three x 12%)<br>
+Minor: 20%<br>
+Major: 20%<br>
+</p>
+
+<ul>
+<li>For missed minor and/or major exam due to a medical reason, a single exam will be held after the regular major exam (<s>date will be announced later</s> on <a href="https://en.wikipedia.org/wiki/Star_Wars_Day" target="_blank">May 04</a>, 2024) for which the syllabus will be the entire course. The weightage of this make-up exam will be 20%.<br><br>Only those who obtain prior approval from the instructor (before the date of the missed regular minor and/or regular major exam) and have at least 75% attendance will qualify for this exam. In particular, if you miss both the regular minor and the regular major exam, there will still be only one make-up exam (worth 20%).<br><br></li>
+<li>For students with an E grade, a remajor exam will be held at the start of the next semester. Again, at least 75% attendance will be required.</li>
+</ul>
+
+Audit policy: To qualify for an NP grade, you need at least 50% score overall and at least 75% attendance.
+<!--
+<b>How to register</b>
+
+<p align="justify">Send an email to Rohit with information about your prior coursework and relevant research experience.</p>
+--></div>
+</div>
+</div>
+</div>
+
+<div class="album py-3 bg-light">
+<div class="container">
+
+
+
+		<table class="table">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col" style="text-align: left;">Date</th>
+			<th scope="col">Lectures</th>
+			<th scope="col">Tutorials</th>
+		</tr>
+	</thead>
+	<tbody>
+	
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 1</td>
+		</tr>
+
+		<tr class="evenrow"><!-- <th scope="row">Lec 1: Date</th> -->
+			<td>Jan 01 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow"><!-- <th scope="row">Lec 1: Date</th> -->
+			<td>Jan 02 (Tue)</td>
+			<td><strong>Lecture 1: What is a Proof?</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-1.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book 1.1-1.4</li>
+			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Jan 03 (Wed)</td>
+			<td><strong>Lecture 2: Propositional Logic</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-2.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes Chapter 1</li>
+				<li>Veritasium: <a href="https://www.youtube.com/watch?v=HeQX2HjkcNo" target="_blank">Math's Fundamental Flaw</a></li>
+			
+			</td>
+			<td>
+			<ul>
+				
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Jan 04 (Thurs)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Jan 05 (Fri)</td>
+			<td><strong>Lecture 3: Patterns of Proof</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-3.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes Chapter 2</li>
+				<li>3Blue1Brown: <a href="https://www.youtube.com/watch?v=VYQVlVoWoPY" target="_blank">How to lie using visual proofs</a></li>
+			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 2</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Jan 08 (Mon)</td>
+			<td><strong style="color:blue;">Last date for course drop</strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-1.pdf" target="_blank">Tutorial Sheet 1</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Jan 09 (Tue)</td>
+			<td><strong>Lecture 4: Induction</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-4.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes Ch 3, Sec 3.2</li>
+				<li><a href="https://pi.math.cornell.edu/~mec/2008-2009/ABjorndahl/" target="_blank">Puzzles and Paradoxes in Mathematical Induction</a></li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-1.pdf" target="_blank">Tutorial Sheet 1</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Jan 10 (Wed)</td>
+			<td><strong>Lecture 5: Induction and Invariant</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-5.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes Chapter 3, Sec 3.3.4</li><br>
+				
+				<strong style="color:blue;">Last date for adding courses in lieu of dropped courses</strong>
+			
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Jan 11 (Thurs)</td>
+			<td><strong style="color:blue;">Finalization of roll lists</strong><br>		
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-1.pdf" target="_blank">Tutorial Sheet 1</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Jan 12 (Fri)</td>
+			<td><strong>Lecture 6: Strong Induction</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-6.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes Chapter 3, Sec 3.4</li>
+			
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-1.pdf" target="_blank">Tutorial Sheet 1</a>
+			</ul>
+			</td>
+		</tr>
+		
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 3</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Jan 15 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-2.pdf" target="_blank">Tutorial Sheet 2</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Jan 16 (Tue)</td>
+			<td><strong>Lecture 7: Well Ordering Principle</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-7.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 2</li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-2.pdf" target="_blank">Tutorial Sheet 2</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Jan 17 (Wed)</td>
+			<td><strong>Lecture 8: <font color="red">Quiz 1</font></strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-8.pdf" target="_blank">Solutions</a></li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Jan 18 (Thurs)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-2.pdf" target="_blank">Tutorial Sheet 2</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Jan 19 (Fri)</td>
+			<td><strong>Lecture 9: Number Theory I: GCD</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-9.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 9, Sec 9.1-9.2.2</li>
+			
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-2.pdf" target="_blank">Tutorial Sheet 2</a>
+			</ul>
+			</td>
+		</tr>
+
+		<tr class="oddrow">
+			<td>Jan 20 (Sat)<br>
+			<strong style="color:blue;">Friday timetable</strong></td>
+			<td><strong>Lecture 10: Number Theory II: GCD Applications</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-10.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 9, Sec 9.2.3-9.4</li>
+			
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-3.pdf" target="_blank">Tutorial Sheet 3</a>
+			</ul>
+			</td>
+		</tr>
+				
+		
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 4</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Jan 22 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-3.pdf" target="_blank">Tutorial Sheet 3</a><br>
+				<font color="red">Moved to Jan 24 (Wed), 5PM, Bharti 501</font>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Jan 23 (Tue)</td>
+			<td><strong>Lecture 11: Number Theory III: GCD Applications and Congruence</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-11.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 9, Sec 9.6</li>
+			
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-3.pdf" target="_blank">Tutorial Sheet 3</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Jan 24 (Wed)</td>
+			<td><strong>Lecture 12: Number Theory IV: Congruence and Euler's Function</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-12.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 9, Sec 9.9 and 9.10.1</li>
+			
+			
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Jan 25 (Thurs)</td>
+			<td><strong></strong><br>
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-3.pdf" target="_blank">Tutorial Sheet 3</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Jan 26 (Fri)<br>
+			<strong style="color:blue;">Republic Day</strong></td>
+			<td><strong>No lecture</strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+
+		
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 5</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Jan 29 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-4.pdf" target="_blank">Tutorial Sheet 4</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Jan 30 (Tue)</td>
+			<td><strong>Lecture 13: Number Theory V: Euler's Theorem</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-13.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 9, Sec 9.10</li>
+			
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-4.pdf" target="_blank">Tutorial Sheet 4</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Jan 31 (Wed)</td>
+			<td><strong>Lecture 14: Number Theory VI: Secret Sharing and Public Key Cryptography</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-14.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 9, Sec 9.11</li>
+				<li>The 'R' in RSA on <a href="https://www.youtube.com/watch?v=YQw124CtvO0" target="_blank">Numberphile</a></li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Feb 01 (Thurs)<br>
+			</td><td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-4.pdf" target="_blank">Tutorial Sheet 4</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Feb 02 (Fri)</td>
+			<td><strong>Lecture 15: <font color="red">Quiz 2</font></strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-15.pdf" target="_blank">Solutions</a></li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-4.pdf" target="_blank">Tutorial Sheet 4</a>
+			</ul>
+			</td>
+		</tr>
+		
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 6</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Feb 05 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-5.pdf" target="_blank">Tutorial Sheet 5</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Feb 06 (Tue)</td>
+			<td><strong>Lecture 16: Graph Theory</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-16.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 12, Sec 12.1, 12.2, and 12.6</li>
+			
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-5.pdf" target="_blank">Tutorial Sheet 5</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Feb 07 (Wed)</td>
+			<td><strong>Lecture 17: Graph Coloring and Matching</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-17.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 12, Sec 12.5 and 12.6</li>
+			
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Feb 08 (Thurs)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-5.pdf" target="_blank">Tutorial Sheet 5</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Feb 09 (Fri)</td>
+			<td><strong>Lecture 18: Perfect Matchings</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-18.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 12, Sec 12.5</li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-5.pdf" target="_blank">Tutorial Sheet 5</a>
+			</ul>
+			</td>
+		</tr>
+		
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 7</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Feb 12 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-6.pdf" target="_blank">Tutorial Sheet 6</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Feb 13 (Tue)</td>
+			<td><strong>Lecture 19: Matchings: Perfect and Stable</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-19.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 12, Sec 12.5 and Chapter 6, Sec 6.4</li>			
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-6.pdf" target="_blank">Tutorial Sheet 6</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Feb 14 (Wed)</td>
+			<td><strong>Lecture 20: Stable Matchings (Contd.)</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-20.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book Chapter 6, Sec 6.4</li>			
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Feb 15 (Thurs)<br>
+			</td><td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-6.pdf" target="_blank">Tutorial Sheet 6</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Feb 16 (Fri)</td>
+			<td><strong>Lecture 21: Walks, Cycles, and Trees</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-21.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes Chapter 5, Sec 5.4-5.7</li>
+			
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-6.pdf" target="_blank">Tutorial Sheet 6</a>
+			</ul>
+			</td>
+		</tr>
+		
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 8</td>
+		</tr>
+
+		<tr class="evenrow">
+			<td></td>
+			<td><strong><font color="red">Minor</font>: Rescheduled to Week 9</strong><br>
+				<!-- <li><a href="Slides/Minor-Solutions.pdf" target="_blank">Solutions</li> -->
+			</td>
+			<td>
+			<ul></ul>
+			</td>
+		</tr>
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 9 (Mid-Term Exams)</td>
+		</tr>
+
+		<tr class="evenrow">
+			<td>Feb 28 (Wed)</td>
+			<td><strong><font color="red">Minor</font>: LH 108 and LH 111, 8-10AM</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Minor-Solutions.pdf" target="_blank">Solutions</a></li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Minor-Solutions.pdf" target="_blank">
+			</a></td>
+			<td>
+			<ul></ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 10</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Mar 04 (Mon)<br>
+			<strong style="color:blue;">Friday timetable</strong></td>
+			<td><strong>Lecture 22: Recap and Minimum Spanning Trees</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-22.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes Chapter 5, Sec 5.7.3-5.7.4</li>			
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-7.pdf" target="_blank">Tutorial Sheet 7</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Mar 05 (Tue)</td>
+			<td><strong>Lecture 23: Minimum Spanning Trees (Contd.)</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-23.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes Chapter 5, Sec 5.7.4</li>			
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-7.pdf" target="_blank">Tutorial Sheet 7</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Mar 06 (Wed)</td>
+			<td><strong>Lecture 24: Euler Tours</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-24.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes, Chapter 5, Sec 5.6.3-5.6.5</li>
+				<li>How Euler tours help in <a href="https://www.youtube.com/watch?v=0JlUy_l-RTk" target="_blank">genome sequencing</a></li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Mar 07 (Thurs)<br>
+			</td><td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-7.pdf" target="_blank">Tutorial Sheet 7</a>
+			</ul>
+			</td>
+		</tr>
+
+		<tr class="oddrow">
+			<td>Mar 08 (Fri)<br>
+			<strong style="color:blue;">Maha Shivaratri</strong></td>
+			<td><strong>No lecture</strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 11</td>
+		</tr>
+
+		<tr class="evenrow">
+			<td>Mar 11 (Mon)<br></td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-7.pdf" target="_blank">Tutorial Sheet 7</a>
+			</ul>
+			</td>
+		</tr>	
+		
+		<tr class="oddrow">
+			<td>Mar 12 (Tue)<br>
+			<strong style="color:blue;">Friday timetable</strong></td>
+			<td><strong>No lecture</strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-8.pdf" target="_blank">Tutorial Sheet 8</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Mar 13 (Wed)</td>
+			<td><strong>Lecture 25: Directed Graphs</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-25.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes, Chapter 6, Sec 6.1.2 and LLM-Book, Chapter 10, Sec 10.5</li>			
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>		
+		
+		<tr class="oddrow">
+			<td>Mar 14 (Thurs)<br>
+			</td><td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-8.pdf" target="_blank">Tutorial Sheet 8</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Mar 15 (Fri)</td>
+			<td><strong>Lecture 26: Sums</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-26.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book, Chapter 14, Sec 14.1-14.3</li>		
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>	
+
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 12</td>
+		</tr>
+						
+		<tr class="oddrow">
+			<td>Mar 18 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-8.pdf" target="_blank">Tutorial Sheet 8</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Mar 19 (Tue)</td>
+			<td><strong>Lecture 27: Sums and Asymptotics</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-27.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book, Chapter 14.3-14.7</li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-8.pdf" target="_blank">Tutorial Sheet 8</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Mar 20 (Wed)</td>
+			<td><strong>Lecture 28: <font color="red">Quiz 3</font></strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-28.pdf" target="_blank">Solutions</a></li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Mar 21 (Thurs)<br>
+			</td><td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-9.pdf" target="_blank">Tutorial Sheet 9</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Mar 22 (Fri)</td>
+			<td><strong>Lecture 29: Recurrence</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-29.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes, Chapter 10, Sec 10.1-10.2</li>
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-9.pdf" target="_blank">Tutorial Sheet 9</a>
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 13 (Mid-Semester Break)</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Mar 25-29</td>
+			<td><strong>No Lectures</strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorials
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 14</td>
+		</tr>
+						
+		<tr class="oddrow">
+			<td>Apr 01 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-9.pdf" target="_blank">Tutorial Sheet 9</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Apr 02 (Tue)</td>
+			<td><strong>Lecture 30: Recurrences: Divide &amp; Conquer and Linear</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-30.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes, Chapter 10, Sec 10.3-10.5</li>
+				<li><a href="https://rohitvaish.in/data/Papers/[Akra,Bazzi]%20On%20the%20Solution%20of%20Linear%20Recurrence%20Equations.pdf" target="_blank">Akra and Bazzi (1998)</a> and <a href="https://rohitvaish.in/data/Papers/[Leighton]%20Notes%20on%20Better%20Master%20Theorems%20for%20Divide-and-Conquer%20Recurrences.pdf" target="_blank">Leighton (1996)</a></li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-9.pdf" target="_blank">Tutorial Sheet 9</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Apr 03 (Wed)</td>
+			<td><strong>Lecture 31: Recurrences (contd.) and Counting</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-31.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Notes, Chapter 10, Sec 10.3-10.5 and LLM-Book, Chapter 15, Sec 15.8</li>
+				<li><a href="https://www.youtube.com/watch?v=TCZ3YwbcDaw" target="_blank">The Pigeon Hole Principle: 7 gorgeous proofs</a></li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Apr 04 (Thurs)<br>
+			</td><td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-10.pdf" target="_blank">Tutorial Sheet 10</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Apr 05 (Fri)</td>
+			<td><strong>Lecture 32: Counting (Contd.)</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-32.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book, Chapter 15, Sec 15.1-15.9</li>	
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-10.pdf" target="_blank">Tutorial Sheet 10</a>
+			</ul>
+			</td>
+		</tr><tr class="evenrow">
+			<td>Apr 06 (Sat)<br>
+			<strong style="color:blue;">Monday timetable</strong></td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+
+
+	
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 15</td>
+		</tr>
+						
+		<tr class="oddrow">
+			<td>Apr 08 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-10.pdf" target="_blank">Tutorial Sheet 10</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Apr 09 (Tue)</td>
+			<td><strong>Lecture 33: Counting (contd.), Combinatorial Proofs and Probability</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-33.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book, Chapter 15, Sec 15.10 and Chapter 17, Sec 17.1 and 17.2</li>		
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-10.pdf" target="_blank">Tutorial Sheet 10</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Apr 10 (Wed)</td>
+			<td><strong>Lecture 34: To Infinity and Beyond</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-34.pdf" target="_blank">Slides</a></li>
+				<li><a href="https://www.youtube.com/watch?v=OxGsU8oIWjY" target="_blank">How An Infinite Hotel Ran Out Of Room</a></li>
+				<li><a href="https://www.youtube.com/watch?v=Nv90aDcwzv0" target="_blank">An "obvious" theorem about infinite sets</a></li>
+				<li>Additional reading: LLM-Book, Chapter 8</li>
+			</td>
+			<td>
+			<ul></ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Apr 11 (Thurs)<br>
+			<strong style="color:blue;">Eid-ul-Fitr</strong></td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+		
+
+		<tr class="oddrow">
+			<td>Apr 12 (Fri)</td>
+			<td><strong>Lecture 35: <font color="red">Quiz 4</font></strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-35.pdf" target="_blank">Solutions</a></li>		
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-11.pdf" target="_blank">Tutorial Sheet 11</a>
+			</ul>
+			</td>
+		</tr>
+
+		
+		<tr class="evenrow">
+			<td>Apr 13 (Sat)<br>
+			<strong style="color:blue;">Thursday timetable</strong></td>
+			<td>	
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 16</td>
+		</tr>
+						
+		<tr class="oddrow">
+			<td>Apr 15 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-11.pdf" target="_blank">Tutorial Sheet 11</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Apr 16 (Tue)</td>
+			<td><strong>Lecture 36: Probability (contd.)</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-36.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book, Chapter 17, Sec 17.1 and 17.2 and Chapter 18, Sec 18.1-18.4</li>
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-11.pdf" target="_blank">Tutorial Sheet 11</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Apr 17 (Wed)<br>
+			<strong style="color:blue;">Ram Navami</strong></td>
+			<td><strong>No lecture</strong><br>	
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Apr 18 (Thurs)</td>
+			<td></td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-11.pdf" target="_blank">Tutorial Sheet 11</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Apr 19 (Fri)</td>
+			<td><strong>Lecture 37: Conditional Probability and Paradoxes</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-37.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book, Chapter 18, Sec 18.4-18.6</li>
+				<li><a href="https://arxiv.org/abs/2005.07180" target="_blank">Simpson's paradox in Covid-19 data</a></li>		
+			</td>
+			<td>
+			<ul>
+				Group 4: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-12.pdf" target="_blank">Tutorial Sheet 12</a>
+			</ul>
+			</td>
+		</tr>
+
+		<tr class="evenrow">
+			<td>Apr 20 (Sat)<br>
+			<strong style="color:blue;">Wednesday timetable</strong></td>
+			<td><strong>Lecture 38: Independence</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-38.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book, Chapter 18, Sec 18.7-18.8</li>			
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 17</td>
+		</tr>
+						
+		<tr class="evenrow">
+			<td>Apr 22 (Mon)</td>
+			<td><strong></strong><br>			
+			</td>
+			<td>
+			<ul>
+				Group 1: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-12.pdf" target="_blank">Tutorial Sheet 12</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Apr 23 (Tue)</td>
+			<td><strong>Lecture 39: Birthday Paradox and Random Variables</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-39.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book, Chapter 17, Sec 17.4 and Chapter 19, Sec 19.1-19.3</li>
+				<li><a href="https://www.bbc.com/future/article/20230830-the-unexpected-maths-problem-at-work-during-the-womens-world-cup" target="_blank">Birthday paradox at play at the Football World Cup</a></li>	
+			</td>
+			<td>
+			<ul>
+				Group 2: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-12.pdf" target="_blank">Tutorial Sheet 12</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Apr 24 (Wed)</td>
+			<td><strong>Lecture 40: Random Variables (contd.) and Probability Distributions</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-40.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book, Chapter 19, Sec 19.1-19.3</li>
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="oddrow">
+			<td>Apr 25 (Thurs)<br>
+			</td><td></td>
+			<td>
+			<ul>
+				Group 3: <a href="https://rohitvaish.in/Teaching/2024-Spring/Tutorials/Sheet-12.pdf" target="_blank">Tutorial Sheet 12</a>
+			</ul>
+			</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>Apr 26 (Fri)<br>
+			<strong style="color:blue;">Monday timetable</strong></td>
+			<td><strong></strong><br>	
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+
+
+		<tr class="oddrow">
+			<td>Apr 27 (Sat)<br>
+			<strong style="color:blue;">Tuesday timetable<br>Last Teaching Day</strong></td>
+			<td><strong>Lecture 41: Expectation and Wrap up</strong><br>			
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Lecture-41.pdf" target="_blank">Slides</a></li>
+				<li>Additional reading: LLM-Book, Chapter 19, Sec 19.4-19.6</li><br>
+			</td>
+			<td>
+			<ul>
+				No tutorial
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+		<tr class="tablesection">
+			<td colspan="4" style="text-align: center;">Week 18 (Major Exams)</td>
+		</tr>
+		
+		<tr class="evenrow">
+			<td>May 03 (Fri)</td>
+			<td><strong><font color="red">Major</font>: 10:30AM-12:30PM, LH 114</strong><br>
+				<li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Major-Solutions.pdf" target="_blank">Solutions</a></li><a href="https://rohitvaish.in/Teaching/2024-Spring/Slides/Major-Solutions.pdf" target="_blank">
+			</a></td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+
+		<tr class="oddrow">
+			<td><a href="https://en.wikipedia.org/wiki/Star_Wars_Day" target="_blank">May 04 (Sat)</a></td>
+			<td><strong><font color="red">Make-Up Exam</font>: 8-10AM, Bharti 425</strong><br>
+				<!-- <li><a href="Slides/Major-Solutions.pdf" target="_blank">Solutions</li> -->
+			</td>
+			<td>
+			<ul>
+			</ul>
+			</td>
+		</tr>
+
+
+
+
+
+
+
+
+
+
+		
+	</tbody>
+</table>
+</div>
+</div>
+
+</main>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
